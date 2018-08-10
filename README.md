@@ -134,7 +134,7 @@ plot(Grunfeld[,c(3:5)])
 
 
 ```R
-coplot(inv ~ year|firm, type="b", data=Grunfeld)  
+coplot(inv ~ year|factor(firm), type="b", data=Grunfeld)  
 ```
 
 
