@@ -129,7 +129,7 @@ plot(Grunfeld[,c(3:5)])
 ```
 
 
-![png](output_14_0.png)
+![png](output_14.png)
 
 
 
@@ -138,7 +138,7 @@ coplot(inv ~ year|firm, type="b", data=Grunfeld)
 ```
 
 
-![png](output_15_0.png)
+![png](output_15.png)
 
 
 Ahora, vamos a estimar el modelo; el primero será el modelo de efectos fijos y el segundo el de efectos aleatorios. Pero, conozcamos los argumentos de la función que vamos a emplear:
@@ -369,7 +369,7 @@ plot(fixef(grun.twfe, effect = "time"), type="l")
 ```
 
 
-![png](output_32_0.png)
+![png](output_32.png)
 
 
 Es posible tratar de implementar un test para comparar modelos; la hipótesis nula se basa en que ambos modelos son significativamente iguales por lo que rechazar esta hipótesis implicaría que un modelo es mejor que otro. Se puede recurrir a comparar el valor de _F_ (a mayor valor de F mejor modelo). A continuación se usa el test F para efectos individuales:
