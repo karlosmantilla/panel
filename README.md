@@ -7,9 +7,7 @@ Recordemos, un modelo de datos de panel parte de la siguiente ecuación:
 
 Esto dado el caso ideal, pero puede suceder que se requiera identificar el efecto aleatorio, por lo tanto se tiene:
 
-\begin{equation}
-Y_{it} = \beta_{0} + \beta_{1}X_{it} + \beta_{2} K_{it} + \underbrace{C_{i} + D_{t} + \varepsilon_{it}}_{e_{it}}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;Y_{it}&space;=&space;\beta_{0}&space;&plus;&space;\beta_{1}X_{it}&space;&plus;&space;\beta_{2}&space;K_{it}&space;&plus;&space;\underbrace{C_{i}&space;&plus;&space;D_{t}&space;&plus;&space;\varepsilon_{it}}_{e_{it}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;Y_{it}&space;=&space;\beta_{0}&space;&plus;&space;\beta_{1}X_{it}&space;&plus;&space;\beta_{2}&space;K_{it}&space;&plus;&space;\underbrace{C_{i}&space;&plus;&space;D_{t}&space;&plus;&space;\varepsilon_{it}}_{e_{it}}" title="\large Y_{it} = \beta_{0} + \beta_{1}X_{it} + \beta_{2} K_{it} + \underbrace{C_{i} + D_{t} + \varepsilon_{it}}_{e_{it}}" /></a>
 
 ## ¿Cuál es el enfoque del software?
 
