@@ -160,9 +160,7 @@ NULL</code></pre>
 
 Para nuestro modelo, vamos a plantear que la _Inversión Bruta_ es función del _Valor de la Firma_ y de las _Exsitencias en Planta y Equipo_; el modelo sería algo así:
 
-\begin{equation}
-inv_{it} = \beta_{0} + \beta_{1}value_{it} + \beta_{2}capital_{it} + e_{it}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;inv_{it}&space;=&space;\beta_{0}&space;&plus;&space;\beta_{1}value_{it}&space;&plus;&space;\beta_{2}capital_{it}&space;&plus;&space;e_{it}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;inv_{it}&space;=&space;\beta_{0}&space;&plus;&space;\beta_{1}value_{it}&space;&plus;&space;\beta_{2}capital_{it}&space;&plus;&space;e_{it}" title="\large inv_{it} = \beta_{0} + \beta_{1}value_{it} + \beta_{2}capital_{it} + e_{it}" /></a>
 
 Vamos, ahora, a plantear dos expresiones: una para los efectos fijos y otra para los efectos aleatorios. En código quedan de la siguiente manera:
 
