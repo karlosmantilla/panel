@@ -223,10 +223,13 @@ summary(grun.fe)$coeff
 
 En el resumen se observa: `n=10`;  `T=20` y `N=200` que corresponde al número de empresas o firmas, el número de periodos registrados y el total de observaciones respectivamente. Se observa, además, los valores de los coeficientes y su significancia:
 
-|        |Estimate| Std. Error| t-value|  $Pr(>|t|)$|
-|:-------|-------:|----------:|-------:|---------:|
-|value   |0.110124|   0.011857|  9.2879| < 2.2e-16|
-|capital |0.310065|   0.017355| 17.8666| < 2.2e-16|
+<table>
+<thead><tr><th></th><th scope=col>Estimate</th><th scope=col>Std. Error</th><th scope=col>t-value</th><th scope=col>Pr(&gt;|t|)</th></tr></thead>
+<tbody>
+	<tr><th scope=row>value</th><td>0.1101238   </td><td>0.01185669  </td><td> 9.287901   </td><td>3.921108e-17</td></tr>
+	<tr><th scope=row>capital</th><td>0.3100653   </td><td>0.01735450  </td><td>17.866564   </td><td>2.220007e-42</td></tr>
+</tbody>
+</table>
 
 Ahora, vemos el modelo de efectos aleatorios
 
@@ -288,11 +291,14 @@ summary(grun.re)$coeff
 
 Se tienen resultados similares. En los coeficients se aprecia que el modelo de _efectos aleatorios_ tiene intercepto:
 
-|        |Estimate| Std. Error| t-value|  $Pr(>|t|)$|
-|:-------|-------:|----------:|-------:|---------:|
-|(Intercept)| -57.834415|  28.898935| -2.0013|  0.04674|  
-|value    |     0.109781|   0.010493| 10.4627|  < 2e-16|
-|capital  |     0.308113|   0.017180| 17.9339|  < 2e-16|
+<table>
+<thead><tr><th></th><th scope=col>Estimate</th><th scope=col>Std. Error</th><th scope=col>t-value</th><th scope=col>Pr(&gt;|t|)</th></tr></thead>
+<tbody>
+	<tr><th scope=row>(Intercept)</th><td>-57.8344149 </td><td>28.89893526 </td><td>-2.001265   </td><td>4.673626e-02</td></tr>
+	<tr><th scope=row>value</th><td>  0.1097812 </td><td> 0.01049266 </td><td>10.462658   </td><td>1.174788e-20</td></tr>
+	<tr><th scope=row>capital</th><td>  0.3081130 </td><td> 0.01718047 </td><td>17.933910   </td><td>2.808210e-43</td></tr>
+</tbody>
+</table>
 
 Ahora, veamos en detalle los cambios observados por cada firma (aporte a la inversión) en el modelo de efectos fijos
 
