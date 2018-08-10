@@ -129,7 +129,7 @@ plot(Grunfeld[,c(3:5)])
 ```
 
 
-![png](output_14_0.png)
+![png](output_14.png)
 
 
 
