@@ -1,7 +1,7 @@
 
-# Más sobre Datos de Panel
+# Más Aspectos sobre Datos de Panel (Usando R)
 
-En la sesión anterior revisamos algunos aspectos básicos sobre los datos de pánel haciendo uso de **R**. Continuaremos conel uso del software pero revisaremos otro enfoque.
+En la sesión anterior revisamos algunos aspectos básicos sobre los datos de pánel haciendo uso de **R**. Continuaremos con el uso del software pero revisaremos otro enfoque.
 
 Veamos otra expresión para el modelo general:
 
