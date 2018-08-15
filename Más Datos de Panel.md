@@ -5,15 +5,11 @@ En la sesión anterior revisamos algunos aspectos básicos sobre los datos de p�
 
 Veamos otra expresión para el modelo general:
 
-\begin{equation}
-y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + u_{it}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;u_{it}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;u_{it}" title="y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + u_{it}" /></a>
 
 Y el modelo con heterogeneidad definida será:
 
-\begin{equation}
-y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + \mu_{i} + \epsilon_{t}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;\mu_{i}&space;&plus;&space;\epsilon_{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;\mu_{i}&space;&plus;&space;\epsilon_{t}" title="y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + \mu_{i} + \epsilon_{t}" /></a>
 
 La apropiada estimación del modelo dependerá de las propiedades de los términos del error. Estimamos los modelos de _efectos fijos_ y _efectos aleatorios_ para un conjunto de datos. Sin embargo, recordemos que existe varios tipos de datos y, en ocasiones, se require dar un tratamiento especial antes de proceder a estimar el modelo. Veamos algunos ejemplos:
 
@@ -197,15 +193,11 @@ Según el tipo de modelo (efectos fijos o efectos aleatorios) es posible estimar
 
 Entonces se tiene:
 
-\begin{equation}
-\widehat{\beta} = \left( \sum_{i=1}^{n} \left( \widehat{\Delta} + \widehat{\sigma}_{i}^{2} \left( X_{i}^{T}X_{i}\right)^{-1} \right) \right) \left( \widehat{\Delta} + \widehat{\sigma}_{i}^{2} \left( X_{i}^{T}X_{i}\right)^{-1} \right)^{-1}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\widehat{\beta}&space;=&space;\left(&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)&space;\right)&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)^{-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\widehat{\beta}&space;=&space;\left(&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)&space;\right)&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)^{-1}" title="\widehat{\beta} = \left( \sum_{i=1}^{n} \left( \widehat{\Delta} + \widehat{\sigma}{i}^{2} \left( X{i}^{T}X_{i}\right)^{-1} \right) \right) \left( \widehat{\Delta} + \widehat{\sigma}{i}^{2} \left( X{i}^{T}X_{i}\right)^{-1} \right)^{-1}" /></a>
 
 Donde $\widehat{\sigma}_{i}^{2}$ es un estimador insesgado de la varianza del error para el individuo $i$ obtenido de una estimación preliminar; y:
 
-\begin{equation}
-\widehat{\Delta} =\frac{1}{n-1} \sum_{i=1}^{n} \left( \widehat{\beta}_{i} - \frac{1}{n} \sum_{i=1}^{n} \widehat{\beta}_{i} \right)\left( \widehat{\beta}_{i} - \frac{1}{n} \sum_{i=1}^{n} \widehat{\beta}_{i} \right)^{T} -\frac{1}{n} \sum_{i=1}^{n} \widehat{\sigma}_{i}^{2} \left( X_{i}^{T}X_{i}\right)^{-1}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\widehat{\Delta}&space;=\frac{1}{n-1}&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\beta}_{i}&space;-&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\beta}_{i}&space;\right)\left(&space;\widehat{\beta}_{i}&space;-&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\beta}_{i}&space;\right)^{T}&space;-\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\sigma}_{i}^{2}&space;\left(&space;X_{i}^{T}X_{i}\right)^{-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\widehat{\Delta}&space;=\frac{1}{n-1}&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\beta}_{i}&space;-&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\beta}_{i}&space;\right)\left(&space;\widehat{\beta}_{i}&space;-&space;\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\beta}_{i}&space;\right)^{T}&space;-\frac{1}{n}&space;\sum_{i=1}^{n}&space;\widehat{\sigma}_{i}^{2}&space;\left(&space;X_{i}^{T}X_{i}\right)^{-1}" title="\widehat{\Delta} =\frac{1}{n-1} \sum_{i=1}^{n} \left( \widehat{\beta}_{i} - \frac{1}{n} \sum_{i=1}^{n} \widehat{\beta}_{i} \right)\left( \widehat{\beta}_{i} - \frac{1}{n} \sum_{i=1}^{n} \widehat{\beta}_{i} \right)^{T} -\frac{1}{n} \sum_{i=1}^{n} \widehat{\sigma}_{i}^{2} \left( X_{i}^{T}X_{i}\right)^{-1}" /></a>
 
 Veamos cómo funciona esto con los datos `Grunfeld`:
 
