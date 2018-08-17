@@ -172,9 +172,7 @@ _Test de Efectos No Observados_
 
 Este test es una prueba tipo Wooldridge, es semiparamétrica para la hipótesis nula $\sigma_{\mu}^{2} = 0$, por lo tanto, (no hay evidencia de efectos no observados en los residuales). El estadístico de prueba se define:
 
-\begin{equation}
-W = \frac{\sum_{i=1}^{n} \sum_{t=1}^{T-1} \sum_{s = t+1}^{T} \widehat{u}_{it}\widehat{u}_{is}}{\left[\sum_{i=1}^{n} \left(\sum_{t=1}^{T-1} \sum_{s = t+1}^{T} \widehat{u}_{it}\widehat{u}_{is}\right)^{2} \right]^{1/2}}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=W&space;=&space;\frac{\sum_{i=1}^{n}&space;\sum_{t=1}^{T-1}&space;\sum_{s&space;=&space;t&plus;1}^{T}&space;\widehat{u}{it}\widehat{u}{is}}{\left[\sum_{i=1}^{n}&space;\left(\sum_{t=1}^{T-1}&space;\sum_{s&space;=&space;t&plus;1}^{T}&space;\widehat{u}{it}\widehat{u}{is}\right)^{2}&space;\right]^{1/2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W&space;=&space;\frac{\sum_{i=1}^{n}&space;\sum_{t=1}^{T-1}&space;\sum_{s&space;=&space;t&plus;1}^{T}&space;\widehat{u}{it}\widehat{u}{is}}{\left[\sum_{i=1}^{n}&space;\left(\sum_{t=1}^{T-1}&space;\sum_{s&space;=&space;t&plus;1}^{T}&space;\widehat{u}{it}\widehat{u}{is}\right)^{2}&space;\right]^{1/2}}" title="W = \frac{\sum_{i=1}^{n} \sum_{t=1}^{T-1} \sum_{s = t+1}^{T} \widehat{u}{it}\widehat{u}{is}}{\left[\sum_{i=1}^{n} \left(\sum_{t=1}^{T-1} \sum_{s = t+1}^{T} \widehat{u}{it}\widehat{u}{is}\right)^{2} \right]^{1/2}}" /></a>
 
 Esta prueba es asintóticamente normal estándar y no se basa en la homocedasticidad. Porl o tanto, tiene poder tanto contra la especificación de efectos aleatorios estándar, donde los efectos no observados son constantes dentro de cada grupo, como contra cualquier tipo de correlación serial.
 
@@ -269,7 +267,7 @@ pbgtest(grun.fe, order = 2)
 
 ## Estimación Robusta (Matriz de Covarianza)
 
-Se busca determinar si el modelo es consistente con la heterocedasticidad. Todos los tipos de estimadores suponen que no hay correlación entre los errores de los diferentes grupos mientras se permite la heterocedasticidad entre los grupos, por lo que la matriz de covarianza completa de los errores es $V = I_{n} \otimes \Omega_{i}$; $i = 1, \dots, n$.
+Se busca determinar si el modelo es consistente con la heterocedasticidad. Todos los tipos de estimadores suponen que no hay correlación entre los errores de los diferentes grupos mientras se permite la heterocedasticidad entre los grupos, por lo que la matriz de covarianza completa de los errores es <a href="https://www.codecogs.com/eqnedit.php?latex=V&space;=&space;I_{n}&space;\otimes&space;\Omega_{i}$;&space;$i&space;=&space;1,&space;\dots,&space;n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V&space;=&space;I_{n}&space;\otimes&space;\Omega_{i}$;&space;$i&space;=&space;1,&space;\dots,&space;n" title="V = I_{n} \otimes \Omega_{i}$; $i = 1, \dots, n" /></a>.
 
 Ilustremos un ejemplo con los datos `Grunfeld`:
 
