@@ -292,3 +292,9 @@ coeftest(re, vcov = pvcovHC)
 
 
 Sin con las opciones por defecto está bien, entonces, tenemos un modelo donde hemos estimado parámetros consistentes con la heterocedasticidad. De lo contrario, podemos revisar los argumentos en detalle para cambiar las opciones (usando la función `help`)
+
+# Referencias
+
+ * Croissant Y, Millo G (2008). “Panel Data Econometrics in R: The plm Package.” _Journal of tatistical Software_, *27*(2), 1-43. doi: 10.18637/jss.v027.i02 (URL: http://doi.org/10.18637/jss.v027.i02).
+
+ * Millo G (2017). “Robust Standard Error Estimators for Panel Models: A Unifying Approach.” _Journal of Statistical Software_, *82*(3), 1-27. doi: 10.18637/jss.v082.i03 (URL: http://doi.org/10.18637/jss.v082.i03).
