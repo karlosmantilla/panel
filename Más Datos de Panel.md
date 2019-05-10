@@ -5,11 +5,11 @@ En la sesión anterior revisamos algunos aspectos básicos sobre los datos de p�
 
 Veamos otra expresión para el modelo general:
 
-<img src="https://github.com/karlosmantilla/panel/blob/master/dpf1.png" alt="Your image title" width="250"/>
+<img src="https://github.com/karlosmantilla/panel/blob/master/dpf1.png" alt="Your image title" width="350"/>
 
 Y el modelo con heterogeneidad definida será:
 
-<img src="https://github.com/karlosmantilla/panel/blob/master/dpf2.png" alt="Your image title" width="250"/>
+<img src="https://github.com/karlosmantilla/panel/blob/master/dpf2.png" alt="Your image title" width="350"/>
 
 La apropiada estimación del modelo dependerá de las propiedades de los términos del error. Estimamos los modelos de _efectos fijos_ y _efectos aleatorios_ para un conjunto de datos. Sin embargo, recordemos que existe varios tipos de datos y, en ocasiones, se require dar un tratamiento especial antes de proceder a estimar el modelo. Veamos algunos ejemplos:
 
