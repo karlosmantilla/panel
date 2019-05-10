@@ -5,7 +5,7 @@ En la sesión anterior revisamos algunos aspectos básicos sobre los datos de p�
 
 Veamos otra expresión para el modelo general:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;u_{it}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;u_{it}" title="y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + u_{it}" /></a>
+<img src="https://github.com/karlosmantilla/panel/blob/master/dpf1.png" alt="Your image title" width="250"/>
 
 Y el modelo con heterogeneidad definida será:
 
