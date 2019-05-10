@@ -193,7 +193,7 @@ Según el tipo de modelo (efectos fijos o efectos aleatorios) es posible estimar
 
 Entonces se tiene:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\widehat{\beta}&space;=&space;\left(&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)&space;\right)&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)^{-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\widehat{\beta}&space;=&space;\left(&space;\sum_{i=1}^{n}&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)&space;\right)&space;\left(&space;\widehat{\Delta}&space;&plus;&space;\widehat{\sigma}{i}^{2}&space;\left(&space;X{i}^{T}X_{i}\right)^{-1}&space;\right)^{-1}" title="\widehat{\beta} = \left( \sum_{i=1}^{n} \left( \widehat{\Delta} + \widehat{\sigma}{i}^{2} \left( X{i}^{T}X_{i}\right)^{-1} \right) \right) \left( \widehat{\Delta} + \widehat{\sigma}{i}^{2} \left( X{i}^{T}X_{i}\right)^{-1} \right)^{-1}" /></a>
+<img src="https://github.com/karlosmantilla/panel/blob/master/dpf3.png" alt="Your image title" width="100%"/>
 
 Donde <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\sigma}_{i}^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\sigma}_{i}^{2}" title="\widehat{\sigma}_{i}^{2}" /></a> es un estimador insesgado de la varianza del error para el individuo _i_ obtenido de una estimación preliminar; y:
 
