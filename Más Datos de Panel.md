@@ -195,7 +195,7 @@ Entonces se tiene:
 
 <img src="https://github.com/karlosmantilla/panel/blob/master/dpf3.png" alt="Your image title" width="100%"/>
 
-Donde <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\sigma}_{i}^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\sigma}_{i}^{2}" title="\widehat{\sigma}_{i}^{2}" /></a> es un estimador insesgado de la varianza del error para el individuo _i_ obtenido de una estimación preliminar; y:
+Donde <img src="https://github.com/karlosmantilla/panel/blob/master/dpf5.png" alt="Your image title" width="30"/>es un estimador insesgado de la varianza del error para el individuo _i_ obtenido de una estimación preliminar; y:
 
 <img src="https://github.com/karlosmantilla/panel/blob/master/dpf4.png" alt="Your image title" width="100%"/>
 
