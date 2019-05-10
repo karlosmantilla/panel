@@ -9,7 +9,7 @@ Veamos otra expresión para el modelo general:
 
 Y el modelo con heterogeneidad definida será:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;\mu_{i}&space;&plus;&space;\epsilon_{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y_{it}&space;=&space;\alpha_{it}&space;&plus;&space;\beta_{it}^{T}&space;x_{it}&space;&plus;&space;\mu_{i}&space;&plus;&space;\epsilon_{t}" title="y_{it} = \alpha_{it} + \beta_{it}^{T} x_{it} + \mu_{i} + \epsilon_{t}" /></a>
+<img src="https://github.com/karlosmantilla/panel/blob/master/dpf2.png" alt="Your image title" width="250"/>
 
 La apropiada estimación del modelo dependerá de las propiedades de los términos del error. Estimamos los modelos de _efectos fijos_ y _efectos aleatorios_ para un conjunto de datos. Sin embargo, recordemos que existe varios tipos de datos y, en ocasiones, se require dar un tratamiento especial antes de proceder a estimar el modelo. Veamos algunos ejemplos:
 
